@@ -1,0 +1,19 @@
+.weather-widget {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 10px;
+  width: 120px;
+  height: 150px;
+  border: 1px solid aliceblue;
+  cursor: pointer;
+
+  &__temp {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+  }
+}
