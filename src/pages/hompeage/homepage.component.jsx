@@ -45,9 +45,12 @@ class Homepage extends React.Component {
     const { stats } = this.state;
     return (
       <div className="homepage">
-        {stats.map((stat, index) => (
-          <Widget key={index} stat={stat} />
-        ))}
+        <h2>Daily Forecast</h2>
+        <div className="homepage__weather">
+          {stats.map((stat, index) => (
+            <Widget key={index} stat={stat} />
+          ))}
+        </div>
       </div>
     );
   }
